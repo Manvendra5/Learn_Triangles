@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300&display=swap");
+
+:root {
+  --primary-color: #2a9d8f;
+  --white-color: white;
+}
+
+body {
+  font-family: "Nunito Sans", sans-serif;
+  margin: 0px auto;
+}
+
+header {
+  background-color: var(--primary-color);
+}
+
+.container {
+  width: 27vw;
+  margin: auto;
+}
+
+.angle-input {
+  display: block;
+  border: 1px solid var(--primary-color);
+  border-radius: 0.5rem;
+  margin-bottom: 0.5rem;
+  padding: 13px;
+  width: 100%;
+  font-size: 16px;
+}
+
+main label {
+  display: block;
+  font-size: 1.2rem;
+  padding: 0.4rem 0;
+  width: 100%;
+}
+
+.nav-head {
+  color: var(--white-color);
+  font-weight: bold;
+  font-size: 1.9rem;
+  padding-top: 1rem;
+  padding-left: 1rem;
+  margin: 0px;
+}
+
+.navigation {
+  color: var(--white-color);
+  margin-bottom: 2rem;
+}
+
+.navigation .nav-pills {
+  text-align: right;
+}
+
+.navigation .link {
+  color: var(--white-color);
+}
+
+.navigation .link-active {
+  font-weight: bold;
+}
+
+.link {
+  font-size: 1.2rem;
+  text-decoration: none;
+  border-radius: 0.5rem;
+  padding: 0.8rem 0.8rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  display: inline-block;
+}
+
+.list-non-bullet {
+  list-style: none;
+  padding-inline-start: 0px;
+  margin-block-end: 0px;
+  margin-block-start: 0px;
+  margin: 0px;
+  padding: 0px;
+}
+
+.list-item-inline {
+  display: inline;
+  padding: 0rem 0.5rem;
+}
+
+.heading {
+  text-align: center;
+}
+
+.footer {
+  margin-top: 2rem;
+  width: 100%;
+  border-top-right-radius: 1rem;
+  text-align: center;
+}
+
+.footer .footer-header {
+  font-weight: bold;
+  font-size: large;
+}
+
+.footer .social-links {
+  padding-inline-start: 0px;
+}
+
+.link-image {
+  width: 35px;
+}
+
+#btn-is-triangle {
+  display: block;
+  font-size: large;
+  font-family: inherit;
+  border: none;
+  border-radius: 0.5rem;
+  background: var(--primary-color);
+  color: var(--white-color);
+  padding: 16px 40px;
+  margin: auto;
+}
+
+#output {
+  width: 100%;
+  text-align: center;
+  font-size: 1.3rem;
+}
