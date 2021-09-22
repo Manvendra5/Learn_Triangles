@@ -3,6 +3,7 @@
 :root {
   --primary-color: #2a9d8f;
   --white-color: white;
+  --light-grey: #ecf4f3;
 }
 
 body {
@@ -12,6 +13,13 @@ body {
 
 header {
   background-color: var(--primary-color);
+}
+
+main label {
+  display: block;
+  font-size: 1.2rem;
+  padding: 0.4rem 0;
+  width: 100%;
 }
 
 .container {
@@ -27,13 +35,6 @@ header {
   padding: 13px;
   width: 100%;
   font-size: 16px;
-}
-
-main label {
-  display: block;
-  font-size: 1.2rem;
-  padding: 0.4rem 0;
-  width: 100%;
 }
 
 .nav-head {
@@ -91,7 +92,7 @@ main label {
 }
 
 .footer {
-  margin-top: 2rem;
+  margin-top: 3.5rem;
   width: 100%;
   border-top-right-radius: 1rem;
   text-align: center;
@@ -110,7 +111,26 @@ main label {
   width: 35px;
 }
 
-#btn-is-triangle {
+.quiz-form {
+  width: 50%;
+  margin: auto;
+}
+.question-container {
+  background-color: var(--light-grey);
+  width: 100%;
+  border: none;
+  border-radius: 0.5rem;
+  margin: 1rem;
+  padding: 1rem;
+}
+
+.question-container label {
+  display: block;
+  margin: 0.5rem;
+}
+
+#btn-is-triangle,
+#submit-form-btn {
   display: block;
   font-size: large;
   font-family: inherit;
@@ -122,8 +142,12 @@ main label {
   margin: auto;
 }
 
-#output {
+#output,
+#show-score {
   width: 100%;
+  margin: 0px;
+  font-weight: bold;
+  padding-top: 1rem;
   text-align: center;
   font-size: 1.3rem;
 }
