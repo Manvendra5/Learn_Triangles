@@ -27,7 +27,8 @@ main label {
   margin: auto;
 }
 
-.angle-input {
+.angle-input,
+.side-input {
   display: block;
   border: 1px solid var(--primary-color);
   border-radius: 0.5rem;
@@ -92,6 +93,7 @@ main label {
 }
 
 .footer {
+  position: relative;
   margin-top: 3.5rem;
   width: 100%;
   border-top-right-radius: 1rem;
@@ -130,7 +132,8 @@ main label {
 }
 
 #btn-is-triangle,
-#submit-form-btn {
+#submit-form-btn,
+#btn-calculate {
   display: block;
   font-size: large;
   font-family: inherit;
